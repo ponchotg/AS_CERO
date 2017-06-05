@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637F93111EE4E167006C0179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93101EE4E167006C0179 /* AppDelegate.swift */; };
+		637F93131EE4E167006C0179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93121EE4E167006C0179 /* ViewController.swift */; };
+		637F93161EE4E167006C0179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637F93141EE4E167006C0179 /* Main.storyboard */; };
+		637F93191EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 637F93171EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld */; };
+		637F931B1EE4E167006C0179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637F931A1EE4E167006C0179 /* Assets.xcassets */; };
+		637F931E1EE4E167006C0179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637F931C1EE4E167006C0179 /* LaunchScreen.storyboard */; };
+		637F93291EE4E168006C0179 /* Armonia_Social_CEROTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93281EE4E168006C0179 /* Armonia_Social_CEROTests.swift */; };
+		637F93341EE4E168006C0179 /* Armonia_Social_CEROUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93331EE4E168006C0179 /* Armonia_Social_CEROUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637F93251EE4E168006C0179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637F93051EE4E167006C0179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637F930C1EE4E167006C0179;
+			remoteInfo = "Armonia Social CERO";
+		};
+		637F93301EE4E168006C0179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637F93051EE4E167006C0179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637F930C1EE4E167006C0179;
+			remoteInfo = "Armonia Social CERO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637F930D1EE4E167006C0179 /* Armonia Social CERO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Armonia Social CERO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637F93101EE4E167006C0179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		637F93121EE4E167006C0179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		637F93151EE4E167006C0179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637F93181EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Armonia_Social_CERO.xcdatamodel; sourceTree = "<group>"; };
+		637F931A1EE4E167006C0179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637F931D1EE4E167006C0179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637F931F1EE4E167006C0179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637F93241EE4E168006C0179 /* Armonia Social CEROTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Armonia Social CEROTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637F93281EE4E168006C0179 /* Armonia_Social_CEROTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armonia_Social_CEROTests.swift; sourceTree = "<group>"; };
+		637F932A1EE4E168006C0179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637F932F1EE4E168006C0179 /* Armonia Social CEROUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Armonia Social CEROUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637F93331EE4E168006C0179 /* Armonia_Social_CEROUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armonia_Social_CEROUITests.swift; sourceTree = "<group>"; };
+		637F93351EE4E168006C0179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637F930A1EE4E167006C0179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637F93211EE4E168006C0179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637F932C1EE4E168006C0179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637F93041EE4E167006C0179 = {
+			isa = PBXGroup;
+			children = (
+				637F930F1EE4E167006C0179 /* Armonia Social CERO */,
+				637F93271EE4E168006C0179 /* Armonia Social CEROTests */,
+				637F93321EE4E168006C0179 /* Armonia Social CEROUITests */,
+				637F930E1EE4E167006C0179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637F930E1EE4E167006C0179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637F930D1EE4E167006C0179 /* Armonia Social CERO.app */,
+				637F93241EE4E168006C0179 /* Armonia Social CEROTests.xctest */,
+				637F932F1EE4E168006C0179 /* Armonia Social CEROUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637F930F1EE4E167006C0179 /* Armonia Social CERO */ = {
+			isa = PBXGroup;
+			children = (
+				637F93101EE4E167006C0179 /* AppDelegate.swift */,
+				637F93121EE4E167006C0179 /* ViewController.swift */,
+				637F93141EE4E167006C0179 /* Main.storyboard */,
+				637F931A1EE4E167006C0179 /* Assets.xcassets */,
+				637F931C1EE4E167006C0179 /* LaunchScreen.storyboard */,
+				637F931F1EE4E167006C0179 /* Info.plist */,
+				637F93171EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld */,
+			);
+			path = "Armonia Social CERO";
+			sourceTree = "<group>";
+		};
+		637F93271EE4E168006C0179 /* Armonia Social CEROTests */ = {
+			isa = PBXGroup;
+			children = (
+				637F93281EE4E168006C0179 /* Armonia_Social_CEROTests.swift */,
+				637F932A1EE4E168006C0179 /* Info.plist */,
+			);
+			path = "Armonia Social CEROTests";
+			sourceTree = "<group>";
+		};
+		637F93321EE4E168006C0179 /* Armonia Social CEROUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637F93331EE4E168006C0179 /* Armonia_Social_CEROUITests.swift */,
+				637F93351EE4E168006C0179 /* Info.plist */,
+			);
+			path = "Armonia Social CEROUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637F930C1EE4E167006C0179 /* Armonia Social CERO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637F93381EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CERO" */;
+			buildPhases = (
+				637F93091EE4E167006C0179 /* Sources */,
+				637F930A1EE4E167006C0179 /* Frameworks */,
+				637F930B1EE4E167006C0179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Armonia Social CERO";
+			productName = "Armonia Social CERO";
+			productReference = 637F930D1EE4E167006C0179 /* Armonia Social CERO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637F93231EE4E168006C0179 /* Armonia Social CEROTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637F933B1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROTests" */;
+			buildPhases = (
+				637F93201EE4E168006C0179 /* Sources */,
+				637F93211EE4E168006C0179 /* Frameworks */,
+				637F93221EE4E168006C0179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637F93261EE4E168006C0179 /* PBXTargetDependency */,
+			);
+			name = "Armonia Social CEROTests";
+			productName = "Armonia Social CEROTests";
+			productReference = 637F93241EE4E168006C0179 /* Armonia Social CEROTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637F932E1EE4E168006C0179 /* Armonia Social CEROUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637F933E1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROUITests" */;
+			buildPhases = (
+				637F932B1EE4E168006C0179 /* Sources */,
+				637F932C1EE4E168006C0179 /* Frameworks */,
+				637F932D1EE4E168006C0179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637F93311EE4E168006C0179 /* PBXTargetDependency */,
+			);
+			name = "Armonia Social CEROUITests";
+			productName = "Armonia Social CEROUITests";
+			productReference = 637F932F1EE4E168006C0179 /* Armonia Social CEROUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637F93051EE4E167006C0179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Paranoid Interactive";
+				TargetAttributes = {
+					637F930C1EE4E167006C0179 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QNHJ5KFQUV;
+						ProvisioningStyle = Automatic;
+					};
+					637F93231EE4E168006C0179 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QNHJ5KFQUV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637F930C1EE4E167006C0179;
+					};
+					637F932E1EE4E168006C0179 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QNHJ5KFQUV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637F930C1EE4E167006C0179;
+					};
+				};
+			};
+			buildConfigurationList = 637F93081EE4E167006C0179 /* Build configuration list for PBXProject "Armonia Social CERO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637F93041EE4E167006C0179;
+			productRefGroup = 637F930E1EE4E167006C0179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637F930C1EE4E167006C0179 /* Armonia Social CERO */,
+				637F93231EE4E168006C0179 /* Armonia Social CEROTests */,
+				637F932E1EE4E168006C0179 /* Armonia Social CEROUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637F930B1EE4E167006C0179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637F931E1EE4E167006C0179 /* LaunchScreen.storyboard in Resources */,
+				637F931B1EE4E167006C0179 /* Assets.xcassets in Resources */,
+				637F93161EE4E167006C0179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637F93221EE4E168006C0179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637F932D1EE4E168006C0179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637F93091EE4E167006C0179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637F93131EE4E167006C0179 /* ViewController.swift in Sources */,
+				637F93111EE4E167006C0179 /* AppDelegate.swift in Sources */,
+				637F93191EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637F93201EE4E168006C0179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637F93291EE4E168006C0179 /* Armonia_Social_CEROTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637F932B1EE4E168006C0179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637F93341EE4E168006C0179 /* Armonia_Social_CEROUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637F93261EE4E168006C0179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637F930C1EE4E167006C0179 /* Armonia Social CERO */;
+			targetProxy = 637F93251EE4E168006C0179 /* PBXContainerItemProxy */;
+		};
+		637F93311EE4E168006C0179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637F930C1EE4E167006C0179 /* Armonia Social CERO */;
+			targetProxy = 637F93301EE4E168006C0179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		637F93141EE4E167006C0179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637F93151EE4E167006C0179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637F931C1EE4E167006C0179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637F931D1EE4E167006C0179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637F93361EE4E168006C0179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637F93371EE4E168006C0179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637F93391EE4E168006C0179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNHJ5KFQUV;
+				INFOPLIST_FILE = "Armonia Social CERO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CERO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		637F933A1EE4E168006C0179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNHJ5KFQUV;
+				INFOPLIST_FILE = "Armonia Social CERO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CERO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		637F933C1EE4E168006C0179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QNHJ5KFQUV;
+				INFOPLIST_FILE = "Armonia Social CEROTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armonia Social CERO.app/Armonia Social CERO";
+			};
+			name = Debug;
+		};
+		637F933D1EE4E168006C0179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QNHJ5KFQUV;
+				INFOPLIST_FILE = "Armonia Social CEROTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armonia Social CERO.app/Armonia Social CERO";
+			};
+			name = Release;
+		};
+		637F933F1EE4E168006C0179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QNHJ5KFQUV;
+				INFOPLIST_FILE = "Armonia Social CEROUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Armonia Social CERO";
+			};
+			name = Debug;
+		};
+		637F93401EE4E168006C0179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QNHJ5KFQUV;
+				INFOPLIST_FILE = "Armonia Social CEROUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Armonia Social CERO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637F93081EE4E167006C0179 /* Build configuration list for PBXProject "Armonia Social CERO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637F93361EE4E168006C0179 /* Debug */,
+				637F93371EE4E168006C0179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637F93381EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CERO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637F93391EE4E168006C0179 /* Debug */,
+				637F933A1EE4E168006C0179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		637F933B1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637F933C1EE4E168006C0179 /* Debug */,
+				637F933D1EE4E168006C0179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		637F933E1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637F933F1EE4E168006C0179 /* Debug */,
+				637F93401EE4E168006C0179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		637F93171EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				637F93181EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodel */,
+			);
+			currentVersion = 637F93181EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodel */;
+			path = Armonia_Social_CERO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 637F93051EE4E167006C0179 /* Project object */;
+}
