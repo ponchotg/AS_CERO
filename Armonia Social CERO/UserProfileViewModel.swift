@@ -52,7 +52,7 @@ class UserProfileViewModel {
         viewController?.updateArea(to: user.area)
         guard let project = Loging.sharedInstance.project else {return}
         let uid = user.uid
-        let ref = Database.database().reference().child(project).child("Profiles").child(uid)
+        let ref = Database.database().reference().child(project).child(Constants.kFirebaseProfileBranch).child(uid)
         
         ref.observeSingleEvent(of: .value, with: {
             [weak self](snapshot) in

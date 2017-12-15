@@ -29,4 +29,5 @@ class Constants{
     //TODO: Update With Branches
     static let kFirebaseUserBranch = ""
     static let kFirebaseGradingBranch = ""
+    static let kFirebaseProfileBranch = ""
 }

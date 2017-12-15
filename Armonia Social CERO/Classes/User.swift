@@ -91,8 +91,8 @@ class MainUser:User{
     
     func getMainUserInfo(){
         guard let project = Loging.sharedInstance.project else {return}
-        let referenceb = Database.database().reference().child(project).child("Reportes").child("Com").child(self.uid)
-        let referencec = Database.database().reference().child(project).child("Reportes").child("Des").child(self.uid)
+        let referenceb = Database.database().reference().child(project).child(Constants.kFirebaseGradingBranch).child("Com").child(self.uid)
+        let referencec = Database.database().reference().child(project).child(Constants.kFirebaseGradingBranch).child("Des").child(self.uid)
         referenceb.observe(.childAdded, with: getObserveFunction(for: .behavior))
         referencec.observe(.childAdded, with: getObserveFunction(for: .performance))
     }

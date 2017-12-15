@@ -63,7 +63,7 @@ class Loging {
     
     private func getProject(){
         guard let uuid = userId else {return}
-        let projectReference = Database.database().reference().child("Users").child(uuid).child("Project")
+        let projectReference = Database.database().reference().child(Constants.kFirebaseUserBranch).child(uuid).child("Project")
         projectReference.observeSingleEvent(of: .value, with: {
             [unowned self] snapshot in
             guard let pName = snapshot.value as? String else {return}
@@ -76,7 +76,7 @@ class Loging {
         print("downloading users")
         guard let uuid = userId else {return}
         guard let project = project else {return}
-        let userReference = Database.database().reference().child(project).child("Users")
+        let userReference = Database.database().reference().child(project).child(Constants.kFirebaseUserBranch)
         self.userList = []
         userReference.observe(.childAdded, with: {
             [unowned self] snapshot in

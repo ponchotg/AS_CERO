@@ -21,7 +21,7 @@ class EditProfileViewModel:NSObject,UIImagePickerControllerDelegate{
     func initialSetup(){
         guard let project = Loging.sharedInstance.project else {return}
         guard let uid = Loging.sharedInstance.userId else {return}
-        let ref = Database.database().reference().child(project).child("Profiles").child(uid)
+        let ref = Database.database().reference().child(project).child(Constants.kFirebaseProfileBranch).child(uid)
         ref.observeSingleEvent(of: .value, with: {
             [weak self](snapshot) in
             guard let snapDict = snapshot.value as? [String:String] else {return}
@@ -79,7 +79,7 @@ class EditProfileViewModel:NSObject,UIImagePickerControllerDelegate{
     func saveProfileToFirebase(profile:[String:String]){
         guard let project = Loging.sharedInstance.project else {return}
         guard let uid = Loging.sharedInstance.userId else {return}
-        let ref = Database.database().reference().child(project).child("Profiles").child(uid)
+        let ref = Database.database().reference().child(project).child(Constants.kFirebaseProfileBranch).child(uid)
         ref.setValue(profile)
         self.viewController?.returnToPreviousView()
     }
@@ -87,7 +87,7 @@ class EditProfileViewModel:NSObject,UIImagePickerControllerDelegate{
     func saveImageUrlToFirebase(url:URL){
         guard let project = Loging.sharedInstance.project else {return}
         guard let uid = Loging.sharedInstance.userId else {return}
-        let ref = Database.database().reference().child(project).child("Users").child(uid).child("Picture")
+        let ref = Database.database().reference().child(project).child(Constants.kFirebaseUserBranch).child(uid).child("Picture")
         ref.setValue(url.absoluteString)
         Loging.sharedInstance.mainUser?.updateUserPicture(url: url.absoluteString)
     }
