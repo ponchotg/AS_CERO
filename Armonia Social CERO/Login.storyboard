@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="svR-xs-8jJ">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loggin View Controller-->
+        <scene sceneID="NTL-7S-Ifz">
+            <objects>
+                <viewController id="svR-xs-8jJ" customClass="LogginViewController" customModule="Armonia_Social_CERO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="izg-V3-zeX"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Z3-Nj-hYz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="88W-7k-iLC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tryjpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dLY-L1-CKO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <textField opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contraseña" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="J6b-Av-RT8">
+                                <rect key="frame" x="16" y="601" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9za-mS-gZM" customClass="LoginButton" customModule="Armonia_Social_CERO" customModuleProvider="target">
+                                <rect key="frame" x="125" y="681" width="125" height="40"/>
+                                <color key="backgroundColor" red="0.4459354067412088" green="0.44650498373141168" blue="0.4560993020304569" alpha="0.60823523116438361" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="kPm-u7-WAX"/>
+                                    <constraint firstAttribute="height" constant="40" id="plq-Zl-ZYk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="logginClickWithSender:" destination="svR-xs-8jJ" eventType="touchUpInside" id="pJK-Zg-71S"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario@pemex.com" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lf7-mc-KaB">
+                                <rect key="frame" x="16" y="563" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ASCeroLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qWr-Rb-dRn">
+                                <rect key="frame" x="16" y="132.33333333333331" width="343" height="342.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qWr-Rb-dRn" secondAttribute="height" multiplier="343:342" id="aK2-yh-YTa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J6b-Av-RT8" firstAttribute="trailing" secondItem="88W-7k-iLC" secondAttribute="trailingMargin" id="1WQ-6o-f8R"/>
+                            <constraint firstAttribute="bottom" secondItem="dLY-L1-CKO" secondAttribute="bottom" id="2Mw-eB-r1b"/>
+                            <constraint firstAttribute="trailing" secondItem="dLY-L1-CKO" secondAttribute="trailing" id="2tW-dA-tje"/>
+                            <constraint firstItem="9za-mS-gZM" firstAttribute="centerX" secondItem="88W-7k-iLC" secondAttribute="centerX" id="7TB-Qv-LMZ"/>
+                            <constraint firstItem="J6b-Av-RT8" firstAttribute="leading" secondItem="88W-7k-iLC" secondAttribute="leadingMargin" id="C1V-zq-GZV"/>
+                            <constraint firstItem="9za-mS-gZM" firstAttribute="top" secondItem="J6b-Av-RT8" secondAttribute="bottom" constant="50" id="WkK-cv-ekq"/>
+                            <constraint firstItem="dLY-L1-CKO" firstAttribute="top" secondItem="88W-7k-iLC" secondAttribute="top" id="cUD-Vk-BOJ"/>
+                            <constraint firstItem="qWr-Rb-dRn" firstAttribute="trailing" secondItem="88W-7k-iLC" secondAttribute="trailingMargin" id="f5t-sC-WWg"/>
+                            <constraint firstItem="lf7-mc-KaB" firstAttribute="trailing" secondItem="88W-7k-iLC" secondAttribute="trailingMargin" id="gJQ-zN-eJG"/>
+                            <constraint firstItem="qWr-Rb-dRn" firstAttribute="centerX" secondItem="88W-7k-iLC" secondAttribute="centerX" id="hTU-Yd-DXI"/>
+                            <constraint firstItem="J6b-Av-RT8" firstAttribute="top" secondItem="lf7-mc-KaB" secondAttribute="bottom" constant="8" id="hfX-xO-vtY"/>
+                            <constraint firstItem="dLY-L1-CKO" firstAttribute="leading" secondItem="88W-7k-iLC" secondAttribute="leading" id="iGg-2X-EkQ"/>
+                            <constraint firstItem="qWr-Rb-dRn" firstAttribute="leading" secondItem="88W-7k-iLC" secondAttribute="leadingMargin" id="l0Y-tc-qZL"/>
+                            <constraint firstItem="lf7-mc-KaB" firstAttribute="leading" secondItem="88W-7k-iLC" secondAttribute="leadingMargin" id="sxU-uO-msA"/>
+                            <constraint firstItem="qWr-Rb-dRn" firstAttribute="centerY" secondItem="88W-7k-iLC" secondAttribute="centerY" constant="-102.5" id="yvj-kH-oEk"/>
+                            <constraint firstItem="5Z3-Nj-hYz" firstAttribute="top" secondItem="9za-mS-gZM" secondAttribute="bottom" constant="57" id="zUY-L4-7cm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logginBtn" destination="9za-mS-gZM" id="qDb-Jg-T65"/>
+                        <outlet property="passField" destination="J6b-Av-RT8" id="dC6-Su-LoB"/>
+                        <outlet property="userField" destination="lf7-mc-KaB" id="oVu-6S-0Xu"/>
+                        <segue destination="edd-6n-yda" kind="presentation" identifier="toNormalView" modalTransitionStyle="flipHorizontal" id="IvB-ND-SRm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ud-Oo-A8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.399999999999999" y="28.078817733990149"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="yzq-UI-3Zi">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main" storyboardName="Main" id="edd-6n-yda" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="NyI-2i-yaP"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7m-MG-7u7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="579" y="28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ASCeroLogo" width="1024" height="1024"/>
+        <image name="tryjpeg" width="1080" height="1920"/>
+    </resources>
+</document>

@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CAEDCBBD59369CF9EDC43AE /* Pods_Armonia_Social_CERO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA629F1232A7E884F09ECA21 /* Pods_Armonia_Social_CERO.framework */; };
+		5D7FC5D25CB84FBEE035D4C3 /* Pods_Armonia_Social_CEROUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92ECD42DBB748C0E9B6891 /* Pods_Armonia_Social_CEROUITests.framework */; };
+		630CFC011F8524AB00CBF174 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CFC001F8524AB00CBF174 /* Grade.swift */; };
+		631273BB1F58E03500CEC213 /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631273BA1F58E03500CEC213 /* ImageHandler.swift */; };
+		631447B41F14839C00B8864E /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631447B31F14839C00B8864E /* LoginButton.swift */; };
+		631CE33D1F7946A700C2122F /* StarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CE33C1F7946A700C2122F /* StarButton.swift */; };
+		6320D5001EF5791300BEE60B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320D4FF1EF5791300BEE60B /* User.swift */; };
+		6320D5021EF583F900BEE60B /* Loging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320D5011EF583F900BEE60B /* Loging.swift */; };
+		63286C3A1F5904FA00AC9C7E /* UserPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63286C391F5904FA00AC9C7E /* UserPickerTableViewController.swift */; };
+		63286C3C1F59063900AC9C7E /* UserPickerTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63286C3B1F59063900AC9C7E /* UserPickerTableViewModel.swift */; };
+		633E98431F0A988E00DFD701 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E98421F0A988E00DFD701 /* Alert.swift */; };
+		633E98451F0A9DFE00DFD701 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E98441F0A9DFE00DFD701 /* Extensions.swift */; };
+		6374B42E1F215CA3006D80C5 /* VMDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374B42D1F215CA3006D80C5 /* VMDelegate.swift */; };
+		637545C01F2196C50060BF2B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637545BF1F2196C50060BF2B /* Errors.swift */; };
+		6377A7131F20E7740072E81D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377A7121F20E7740072E81D /* HomeViewModel.swift */; };
 		637F93111EE4E167006C0179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93101EE4E167006C0179 /* AppDelegate.swift */; };
-		637F93131EE4E167006C0179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93121EE4E167006C0179 /* ViewController.swift */; };
+		637F93131EE4E167006C0179 /* LogginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93121EE4E167006C0179 /* LogginViewController.swift */; };
 		637F93161EE4E167006C0179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637F93141EE4E167006C0179 /* Main.storyboard */; };
 		637F93191EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 637F93171EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld */; };
 		637F931B1EE4E167006C0179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637F931A1EE4E167006C0179 /* Assets.xcassets */; };
 		637F931E1EE4E167006C0179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637F931C1EE4E167006C0179 /* LaunchScreen.storyboard */; };
 		637F93291EE4E168006C0179 /* Armonia_Social_CEROTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93281EE4E168006C0179 /* Armonia_Social_CEROTests.swift */; };
 		637F93341EE4E168006C0179 /* Armonia_Social_CEROUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F93331EE4E168006C0179 /* Armonia_Social_CEROUITests.swift */; };
+		638FA9291EF7487B00AAFC8E /* LogginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FA9281EF7487B00AAFC8E /* LogginViewModel.swift */; };
+		6390A5E71F15C2F200A1FDEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6390A5E61F15C2F200A1FDEF /* GoogleService-Info.plist */; };
+		63A55EAE1F70E703003B4C06 /* UserGradingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A55EAD1F70E703003B4C06 /* UserGradingViewModel.swift */; };
+		63A55EB01F70E8A7003B4C06 /* UserGradingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A55EAF1F70E8A7003B4C06 /* UserGradingViewController.swift */; };
+		63A6599F1F1C75190025774B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6599E1F1C75190025774B /* HomeViewController.swift */; };
+		63B4F1641F0804D7008B81A9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4F1631F0804D7008B81A9 /* Networking.swift */; };
+		63C3BACD1EF64EFC003919CF /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3BACC1EF64EFC003919CF /* GlobalProperties.swift */; };
+		63CFEEBA1F1477AB004A2DE9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CFEEB91F1477AB004A2DE9 /* Login.storyboard */; };
+		63D3E5271F286A6900F4BC42 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3E5261F286A6900F4BC42 /* EditProfileTableViewController.swift */; };
+		63D3E5291F28726500F4BC42 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3E5281F28726500F4BC42 /* EditProfileViewModel.swift */; };
+		63E4F09A1F62E51100B42197 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F0991F62E51100B42197 /* UserProfileViewController.swift */; };
+		63E4F09C1F62E65600B42197 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F09B1F62E65600B42197 /* UserProfileViewModel.swift */; };
+		63EC5A911F7E905000BC12BD /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC5A901F7E905000BC12BD /* DateHandler.swift */; };
+		63FCA40B1F16E73000E8ADE6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FCA40A1F16E73000E8ADE6 /* AdSupport.framework */; };
+		63FCA40D1F16E74E00E8ADE6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FCA40C1F16E74E00E8ADE6 /* iAd.framework */; };
+		AE29A59D075B29D4FFBCEDD1 /* Pods_Armonia_Social_CEROTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36E9AF9A11F267132EF62E9 /* Pods_Armonia_Social_CEROTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +66,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B86714764A96975C527AAAA /* Pods-Armonia Social CEROTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armonia Social CEROTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Armonia Social CEROTests/Pods-Armonia Social CEROTests.debug.xcconfig"; sourceTree = "<group>"; };
+		269E6D883D4038F3C17D941D /* Pods-Armonia Social CEROUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armonia Social CEROUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Armonia Social CEROUITests/Pods-Armonia Social CEROUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40B23D65B36AC7A359B4CB1E /* Pods-Armonia Social CERO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armonia Social CERO.release.xcconfig"; path = "Pods/Target Support Files/Pods-Armonia Social CERO/Pods-Armonia Social CERO.release.xcconfig"; sourceTree = "<group>"; };
+		630CFC001F8524AB00CBF174 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		631273BA1F58E03500CEC213 /* ImageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
+		631447B31F14839C00B8864E /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		631CE33C1F7946A700C2122F /* StarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarButton.swift; sourceTree = "<group>"; };
+		6320D4FF1EF5791300BEE60B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Classes/User.swift; sourceTree = "<group>"; };
+		6320D5011EF583F900BEE60B /* Loging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loging.swift; sourceTree = "<group>"; };
+		63286C391F5904FA00AC9C7E /* UserPickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPickerTableViewController.swift; sourceTree = "<group>"; };
+		63286C3B1F59063900AC9C7E /* UserPickerTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPickerTableViewModel.swift; sourceTree = "<group>"; };
+		633E98421F0A988E00DFD701 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		633E98441F0A9DFE00DFD701 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6374B42D1F215CA3006D80C5 /* VMDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMDelegate.swift; sourceTree = "<group>"; };
+		637545BF1F2196C50060BF2B /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		6377A7121F20E7740072E81D /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		637F930D1EE4E167006C0179 /* Armonia Social CERO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Armonia Social CERO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F93101EE4E167006C0179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		637F93121EE4E167006C0179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		637F93121EE4E167006C0179 /* LogginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginViewController.swift; sourceTree = "<group>"; };
 		637F93151EE4E167006C0179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		637F93181EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Armonia_Social_CERO.xcdatamodel; sourceTree = "<group>"; };
 		637F931A1EE4E167006C0179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +96,29 @@
 		637F932F1EE4E168006C0179 /* Armonia Social CEROUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Armonia Social CEROUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F93331EE4E168006C0179 /* Armonia_Social_CEROUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armonia_Social_CEROUITests.swift; sourceTree = "<group>"; };
 		637F93351EE4E168006C0179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638FA9281EF7487B00AAFC8E /* LogginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginViewModel.swift; sourceTree = "<group>"; };
+		6390A5E61F15C2F200A1FDEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6390A5E81F16684000A1FDEF /* Armonia Social CERO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Armonia Social CERO.entitlements"; sourceTree = "<group>"; };
+		63A55EAD1F70E703003B4C06 /* UserGradingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGradingViewModel.swift; sourceTree = "<group>"; };
+		63A55EAF1F70E8A7003B4C06 /* UserGradingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGradingViewController.swift; sourceTree = "<group>"; };
+		63A6599E1F1C75190025774B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63B4F1631F0804D7008B81A9 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		63C3BACC1EF64EFC003919CF /* GlobalProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalProperties.swift; sourceTree = "<group>"; };
+		63CFEEB91F1477AB004A2DE9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		63D3E5261F286A6900F4BC42 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		63D3E5281F28726500F4BC42 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		63E4F0991F62E51100B42197 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		63E4F09B1F62E65600B42197 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		63EC5A901F7E905000BC12BD /* DateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHandler.swift; sourceTree = "<group>"; };
+		63FCA40A1F16E73000E8ADE6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		63FCA40C1F16E74E00E8ADE6 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		63FCA40F1F17AEC000E8ADE6 /* Armonia Social CERO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Armonia Social CERO-Bridging-Header.h"; sourceTree = "<group>"; };
+		67199E1D53A98D14F61C9C15 /* Pods-Armonia Social CERO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armonia Social CERO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Armonia Social CERO/Pods-Armonia Social CERO.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6ABFEE8F6A483C267A3B7D /* Pods-Armonia Social CEROTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armonia Social CEROTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Armonia Social CEROTests/Pods-Armonia Social CEROTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB92ECD42DBB748C0E9B6891 /* Pods_Armonia_Social_CEROUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Armonia_Social_CEROUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36E9AF9A11F267132EF62E9 /* Pods_Armonia_Social_CEROTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Armonia_Social_CEROTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B04A207D54E94020A6ED3D /* Pods-Armonia Social CEROUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armonia Social CEROUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Armonia Social CEROUITests/Pods-Armonia Social CEROUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA629F1232A7E884F09ECA21 /* Pods_Armonia_Social_CERO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Armonia_Social_CERO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FCA40D1F16E74E00E8ADE6 /* iAd.framework in Frameworks */,
+				63FCA40B1F16E73000E8ADE6 /* AdSupport.framework in Frameworks */,
+				1CAEDCBBD59369CF9EDC43AE /* Pods_Armonia_Social_CERO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE29A59D075B29D4FFBCEDD1 /* Pods_Armonia_Social_CEROTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +144,121 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7FC5D25CB84FBEE035D4C3 /* Pods_Armonia_Social_CEROUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		631447B51F1483A300B8864E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				631447B31F14839C00B8864E /* LoginButton.swift */,
+				631CE33C1F7946A700C2122F /* StarButton.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		6320D4FE1EF5789100BEE60B /* Objects & Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				637F93101EE4E167006C0179 /* AppDelegate.swift */,
+				63FCA40F1F17AEC000E8ADE6 /* Armonia Social CERO-Bridging-Header.h */,
+				633E98441F0A9DFE00DFD701 /* Extensions.swift */,
+			);
+			name = "Objects & Helpers";
+			sourceTree = "<group>";
+		};
+		635364B81F7CA73200F5668C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6320D4FF1EF5791300BEE60B /* User.swift */,
+				63C3BACC1EF64EFC003919CF /* GlobalProperties.swift */,
+				633E98421F0A988E00DFD701 /* Alert.swift */,
+				6374B42D1F215CA3006D80C5 /* VMDelegate.swift */,
+				637545BF1F2196C50060BF2B /* Errors.swift */,
+				630CFC001F8524AB00CBF174 /* Grade.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		635364B91F7CA7A300F5668C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				631273BA1F58E03500CEC213 /* ImageHandler.swift */,
+				6320D5011EF583F900BEE60B /* Loging.swift */,
+				63B4F1631F0804D7008B81A9 /* Networking.swift */,
+				63EC5A901F7E905000BC12BD /* DateHandler.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		635364BA1F7CA7D100F5668C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				637F931C1EE4E167006C0179 /* LaunchScreen.storyboard */,
+				637F93141EE4E167006C0179 /* Main.storyboard */,
+				63CFEEB91F1477AB004A2DE9 /* Login.storyboard */,
+				631447B51F1483A300B8864E /* CustomViews */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		635890C31F7CA59D0023DD04 /* LogginView */ = {
+			isa = PBXGroup;
+			children = (
+				637F93121EE4E167006C0179 /* LogginViewController.swift */,
+				638FA9281EF7487B00AAFC8E /* LogginViewModel.swift */,
+			);
+			name = LogginView;
+			sourceTree = "<group>";
+		};
+		635890C41F7CA5C00023DD04 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				63A6599E1F1C75190025774B /* HomeViewController.swift */,
+				6377A7121F20E7740072E81D /* HomeViewModel.swift */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		635890C51F7CA5DB0023DD04 /* EditProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				63D3E5261F286A6900F4BC42 /* EditProfileTableViewController.swift */,
+				63D3E5281F28726500F4BC42 /* EditProfileViewModel.swift */,
+			);
+			name = EditProfileView;
+			sourceTree = "<group>";
+		};
+		635890C61F7CA5F20023DD04 /* UserPickerTableView */ = {
+			isa = PBXGroup;
+			children = (
+				63286C391F5904FA00AC9C7E /* UserPickerTableViewController.swift */,
+				63286C3B1F59063900AC9C7E /* UserPickerTableViewModel.swift */,
+			);
+			name = UserPickerTableView;
+			sourceTree = "<group>";
+		};
+		635890C71F7CA60D0023DD04 /* UserProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				63E4F0991F62E51100B42197 /* UserProfileViewController.swift */,
+				63E4F09B1F62E65600B42197 /* UserProfileViewModel.swift */,
+			);
+			name = UserProfileView;
+			sourceTree = "<group>";
+		};
+		635890C81F7CA63B0023DD04 /* UserGradingView */ = {
+			isa = PBXGroup;
+			children = (
+				63A55EAF1F70E8A7003B4C06 /* UserGradingViewController.swift */,
+				63A55EAD1F70E703003B4C06 /* UserGradingViewModel.swift */,
+			);
+			name = UserGradingView;
+			sourceTree = "<group>";
+		};
 		637F93041EE4E167006C0179 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +266,8 @@
 				637F93271EE4E168006C0179 /* Armonia Social CEROTests */,
 				637F93321EE4E168006C0179 /* Armonia Social CEROUITests */,
 				637F930E1EE4E167006C0179 /* Products */,
+				E8ABA3177811BCE01E493ED5 /* Frameworks */,
+				E9849BB0F0874DB907194FF3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +284,15 @@
 		637F930F1EE4E167006C0179 /* Armonia Social CERO */ = {
 			isa = PBXGroup;
 			children = (
-				637F93101EE4E167006C0179 /* AppDelegate.swift */,
-				637F93121EE4E167006C0179 /* ViewController.swift */,
-				637F93141EE4E167006C0179 /* Main.storyboard */,
+				6390A5E81F16684000A1FDEF /* Armonia Social CERO.entitlements */,
+				635364BA1F7CA7D100F5668C /* Views */,
+				635364B91F7CA7A300F5668C /* Services */,
+				635364B81F7CA73200F5668C /* Model */,
+				6320D4FE1EF5789100BEE60B /* Objects & Helpers */,
+				63A6599C1F1C012F0025774B /* ViewControllers */,
 				637F931A1EE4E167006C0179 /* Assets.xcassets */,
-				637F931C1EE4E167006C0179 /* LaunchScreen.storyboard */,
 				637F931F1EE4E167006C0179 /* Info.plist */,
+				6390A5E61F15C2F200A1FDEF /* GoogleService-Info.plist */,
 				637F93171EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld */,
 			);
 			path = "Armonia Social CERO";
@@ -128,6 +316,44 @@
 			path = "Armonia Social CEROUITests";
 			sourceTree = "<group>";
 		};
+		63A6599C1F1C012F0025774B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				635890C31F7CA59D0023DD04 /* LogginView */,
+				635890C41F7CA5C00023DD04 /* HomeView */,
+				635890C51F7CA5DB0023DD04 /* EditProfileView */,
+				635890C61F7CA5F20023DD04 /* UserPickerTableView */,
+				635890C71F7CA60D0023DD04 /* UserProfileView */,
+				635890C81F7CA63B0023DD04 /* UserGradingView */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E8ABA3177811BCE01E493ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FCA40C1F16E74E00E8ADE6 /* iAd.framework */,
+				63FCA40A1F16E73000E8ADE6 /* AdSupport.framework */,
+				EA629F1232A7E884F09ECA21 /* Pods_Armonia_Social_CERO.framework */,
+				D36E9AF9A11F267132EF62E9 /* Pods_Armonia_Social_CEROTests.framework */,
+				AB92ECD42DBB748C0E9B6891 /* Pods_Armonia_Social_CEROUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9849BB0F0874DB907194FF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67199E1D53A98D14F61C9C15 /* Pods-Armonia Social CERO.debug.xcconfig */,
+				40B23D65B36AC7A359B4CB1E /* Pods-Armonia Social CERO.release.xcconfig */,
+				0B86714764A96975C527AAAA /* Pods-Armonia Social CEROTests.debug.xcconfig */,
+				6E6ABFEE8F6A483C267A3B7D /* Pods-Armonia Social CEROTests.release.xcconfig */,
+				E9B04A207D54E94020A6ED3D /* Pods-Armonia Social CEROUITests.debug.xcconfig */,
+				269E6D883D4038F3C17D941D /* Pods-Armonia Social CEROUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +361,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 637F93381EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CERO" */;
 			buildPhases = (
+				CD2B07019BEE5B628856BFDE /* [CP] Check Pods Manifest.lock */,
 				637F93091EE4E167006C0179 /* Sources */,
 				637F930A1EE4E167006C0179 /* Frameworks */,
 				637F930B1EE4E167006C0179 /* Resources */,
+				63F44C591EE59F110025EC9B /* ShellScript */,
+				57D70F5ED020D054E46D0CFD /* [CP] Embed Pods Frameworks */,
+				14B833DE19A8C93CA4C01224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +382,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 637F933B1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROTests" */;
 			buildPhases = (
+				05832B58324D59A5665B79BD /* [CP] Check Pods Manifest.lock */,
 				637F93201EE4E168006C0179 /* Sources */,
 				637F93211EE4E168006C0179 /* Frameworks */,
 				637F93221EE4E168006C0179 /* Resources */,
+				D3260AA91F3F0C5729F26C8A /* [CP] Embed Pods Frameworks */,
+				B635DE0C48B42C705996D744 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 637F933E1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROUITests" */;
 			buildPhases = (
+				F30F983E191B97C0F54BEC5F /* [CP] Check Pods Manifest.lock */,
 				637F932B1EE4E168006C0179 /* Sources */,
 				637F932C1EE4E168006C0179 /* Frameworks */,
 				637F932D1EE4E168006C0179 /* Resources */,
+				F0F5D7BF352554D109B7A876 /* [CP] Embed Pods Frameworks */,
+				53E2B8311203D5A104C80C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,23 +427,31 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Paranoid Interactive";
 				TargetAttributes = {
 					637F930C1EE4E167006C0179 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QNHJ5KFQUV;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					637F93231EE4E168006C0179 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QNHJ5KFQUV;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 637F930C1EE4E167006C0179;
 					};
 					637F932E1EE4E168006C0179 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QNHJ5KFQUV;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 637F930C1EE4E167006C0179;
 					};
@@ -238,7 +482,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CFEEBA1F1477AB004A2DE9 /* Login.storyboard in Resources */,
 				637F931E1EE4E167006C0179 /* LaunchScreen.storyboard in Resources */,
+				6390A5E71F15C2F200A1FDEF /* GoogleService-Info.plist in Resources */,
 				637F931B1EE4E167006C0179 /* Assets.xcassets in Resources */,
 				637F93161EE4E167006C0179 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +506,189 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05832B58324D59A5665B79BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14B833DE19A8C93CA4C01224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Armonia Social CERO/Pods-Armonia Social CERO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E2B8311203D5A104C80C7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Armonia Social CEROUITests/Pods-Armonia Social CEROUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D70F5ED020D054E46D0CFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Armonia Social CERO/Pods-Armonia Social CERO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63F44C591EE59F110025EC9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a092c933747cbc0c103d80740abe161bd5a29f33 b0e08b6339a1d2e6b7ad2463b712088bc140896f87d1b8a60003e92f924ce067";
+		};
+		B635DE0C48B42C705996D744 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Armonia Social CEROTests/Pods-Armonia Social CEROTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2B07019BEE5B628856BFDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3260AA91F3F0C5729F26C8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Armonia Social CEROTests/Pods-Armonia Social CEROTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F5D7BF352554D109B7A876 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Armonia Social CEROUITests/Pods-Armonia Social CEROUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30F983E191B97C0F54BEC5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		637F93091EE4E167006C0179 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637F93131EE4E167006C0179 /* ViewController.swift in Sources */,
+				63EC5A911F7E905000BC12BD /* DateHandler.swift in Sources */,
+				633E98431F0A988E00DFD701 /* Alert.swift in Sources */,
+				637545C01F2196C50060BF2B /* Errors.swift in Sources */,
+				6374B42E1F215CA3006D80C5 /* VMDelegate.swift in Sources */,
+				638FA9291EF7487B00AAFC8E /* LogginViewModel.swift in Sources */,
+				6320D5001EF5791300BEE60B /* User.swift in Sources */,
+				63E4F09C1F62E65600B42197 /* UserProfileViewModel.swift in Sources */,
+				63B4F1641F0804D7008B81A9 /* Networking.swift in Sources */,
+				6320D5021EF583F900BEE60B /* Loging.swift in Sources */,
+				633E98451F0A9DFE00DFD701 /* Extensions.swift in Sources */,
+				637F93131EE4E167006C0179 /* LogginViewController.swift in Sources */,
+				630CFC011F8524AB00CBF174 /* Grade.swift in Sources */,
+				63D3E5291F28726500F4BC42 /* EditProfileViewModel.swift in Sources */,
 				637F93111EE4E167006C0179 /* AppDelegate.swift in Sources */,
+				63A55EB01F70E8A7003B4C06 /* UserGradingViewController.swift in Sources */,
+				6377A7131F20E7740072E81D /* HomeViewModel.swift in Sources */,
 				637F93191EE4E167006C0179 /* Armonia_Social_CERO.xcdatamodeld in Sources */,
+				63A55EAE1F70E703003B4C06 /* UserGradingViewModel.swift in Sources */,
+				631447B41F14839C00B8864E /* LoginButton.swift in Sources */,
+				63286C3C1F59063900AC9C7E /* UserPickerTableViewModel.swift in Sources */,
+				63D3E5271F286A6900F4BC42 /* EditProfileTableViewController.swift in Sources */,
+				63E4F09A1F62E51100B42197 /* UserProfileViewController.swift in Sources */,
+				631CE33D1F7946A700C2122F /* StarButton.swift in Sources */,
+				63C3BACD1EF64EFC003919CF /* GlobalProperties.swift in Sources */,
+				631273BB1F58E03500CEC213 /* ImageHandler.swift in Sources */,
+				63286C3A1F5904FA00AC9C7E /* UserPickerTableViewController.swift in Sources */,
+				63A6599F1F1C75190025774B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +753,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -340,7 +763,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -363,7 +790,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -382,7 +809,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -390,7 +819,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -407,7 +840,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -417,32 +850,51 @@
 		};
 		637F93391EE4E168006C0179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67199E1D53A98D14F61C9C15 /* Pods-Armonia Social CERO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Armonia Social CERO/Armonia Social CERO.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = QNHJ5KFQUV;
 				INFOPLIST_FILE = "Armonia Social CERO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CERO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Armonia Social CERO/Armonia Social CERO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		637F933A1EE4E168006C0179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B23D65B36AC7A359B4CB1E /* Pods-Armonia Social CERO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Armonia Social CERO/Armonia Social CERO.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QNHJ5KFQUV;
 				INFOPLIST_FILE = "Armonia Social CERO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CERO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Armonia Social CERO/Armonia Social CERO-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		637F933C1EE4E168006C0179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B86714764A96975C527AAAA /* Pods-Armonia Social CEROTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -451,13 +903,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armonia Social CERO.app/Armonia Social CERO";
 			};
 			name = Debug;
 		};
 		637F933D1EE4E168006C0179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6ABFEE8F6A483C267A3B7D /* Pods-Armonia Social CEROTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,13 +920,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armonia Social CERO.app/Armonia Social CERO";
 			};
 			name = Release;
 		};
 		637F933F1EE4E168006C0179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B04A207D54E94020A6ED3D /* Pods-Armonia Social CEROUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QNHJ5KFQUV;
@@ -480,13 +936,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Armonia Social CERO";
 			};
 			name = Debug;
 		};
 		637F93401EE4E168006C0179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269E6D883D4038F3C17D941D /* Pods-Armonia Social CEROUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QNHJ5KFQUV;
@@ -494,7 +952,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paranoidinteractive.Armonia-Social-CEROUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Armonia Social CERO";
 			};
 			name = Release;
@@ -518,6 +977,7 @@
 				637F933A1EE4E168006C0179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637F933B1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +986,7 @@
 				637F933D1EE4E168006C0179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637F933E1EE4E168006C0179 /* Build configuration list for PBXNativeTarget "Armonia Social CEROUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +995,7 @@
 				637F93401EE4E168006C0179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
